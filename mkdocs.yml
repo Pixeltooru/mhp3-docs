@@ -1,0 +1,28 @@
+site_name: MHP3 Protocol Documentation
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - Overview: index.md
+  - API Specification: api_spec.md
+  - PTS & Sync Policy: pts_sync.md
+  - Security & Encryption: security.md
+  - Deployment & Proto: deployment.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
